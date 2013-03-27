@@ -1,0 +1,22 @@
+.border
+
+  .head
+    %h1 ** Tip Calculator **
+
+  .body
+
+    %form{:action => calc_path}
+
+      Amount of Bill
+      %input{:name => "amount"}
+      <br>
+      Percentage to Tip
+      %input{:name => "percent"}
+      <br>
+      Number of people
+      %input{:name => "people"}
+      <br>
+      %button Calculate
+      %button Reset
+
+
